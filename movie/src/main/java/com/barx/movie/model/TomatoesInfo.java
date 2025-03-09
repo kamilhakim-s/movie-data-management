@@ -61,6 +61,7 @@ public class TomatoesInfo {
     /**
      * Last updated timestamp
      */
+    @Column(name = "tomatoes_last_updated")
     private LocalDateTime lastUpdated;
     
     /**
